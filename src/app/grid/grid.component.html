@@ -1,0 +1,7 @@
+<p>
+  grid works!
+</p>
+
+<div class="main-grid">
+  <span *ngFor="let item of items" (click)="selectedBox(item)" [ngClass]="{'activeGreen': item.activeGreen,'activeRed': item.activeRed }"></span>
+</div>

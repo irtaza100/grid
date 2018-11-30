@@ -1,0 +1,9 @@
+.timer-main a {
+    background: green;
+    color: #ffffff;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-family: SANS-SERIF;
+    cursor: pointer;
+    border-radius: 6px;
+}

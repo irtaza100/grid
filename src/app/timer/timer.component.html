@@ -1,0 +1,5 @@
+<div class="timer-main">
+  <a (click)="startTimer()" *ngIf="seconds == 0 && minutes ==0">Start Timer</a>
+  <a (click)="stopTimer()" *ngIf="seconds != 0 || minutes !=0">Stop Timer</a>
+  <h2>{{hours}}:{{minutes}}:{{seconds}} </h2>
+</div>

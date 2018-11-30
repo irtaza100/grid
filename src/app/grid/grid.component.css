@@ -1,0 +1,17 @@
+.main-grid span {
+    padding: 35px 25px;
+    border: 2px solid #ccc;
+    margin: -3px -1px;
+    max-width: 320px;
+    display: inline-block;
+    cursor: pointer;
+}
+.main-grid {
+    max-width: 250px;
+}
+span.activeRed {
+    background-color: red;
+}
+span.activeGreen {
+    background-color: green;
+}
